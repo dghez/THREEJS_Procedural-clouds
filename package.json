@@ -1,0 +1,60 @@
+{
+  "name": "procedural-clouds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=dev webpack-dev-server --open --host 0.0.0.0 --port 3000",
+    "build": "NODE_ENV=test webpack",
+    "build-prod": "NODE_ENV=prod webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dghez/THREEJS_Procedural-cloud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-polyfill": "^6.26.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.0.4",
+    "css-loader": "^3.1.0",
+    "eslint": "^6.1.0",
+    "eslint-config-google": "^0.13.0",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.6.1",
+    "file-loader": "^4.1.0",
+    "glslify-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "raw-loader": "^3.1.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "core-js": "^3.1.4",
+    "dat.gui": "^0.7.6",
+    "glsl-fractal-brownian-noise": "^1.1.0",
+    "glsl-noise": "0.0.0",
+    "interpolation": "^1.0.0",
+    "lodash": "^4.17.15",
+    "mobile-detect": "^1.4.3",
+    "normalize.css": "^8.0.1",
+    "pepjs": "^0.5.2",
+    "query-string": "^6.8.2",
+    "react": "^16.9",
+    "react-dom": "^16.9.0",
+    "react-three-fiber": "^4.0.7",
+    "string": "^3.3.3",
+    "styled-jsx": "^3.2.1",
+    "three": "^0.112.0"
+  }
+}
