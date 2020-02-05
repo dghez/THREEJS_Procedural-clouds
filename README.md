@@ -12,7 +12,7 @@
 
 ## Instructions
 
-- `npm run install` to install dependencies
+- `npm install` to install dependencies
 - `npm run dev` to start the server
 - `npm run build` to create the build
 
