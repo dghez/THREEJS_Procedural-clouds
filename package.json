@@ -56,6 +56,6 @@
     "react-three-fiber": "^4.0.7",
     "string": "^3.3.3",
     "styled-jsx": "^3.2.1",
-    "three": "^0.112.0"
+    "three": "^0.137.0"
   }
 }
